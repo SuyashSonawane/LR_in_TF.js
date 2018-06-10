@@ -1,0 +1,14 @@
+#canvas{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: #696969; 
+} 
+
+.text{
+    font-size: 2em;    
+    display: flex;
+    justify-content: center;
+    
+}
