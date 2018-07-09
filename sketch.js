@@ -6,7 +6,7 @@ const lrate = 0.5;
 const optmz = tf.train.sgd(lrate)
 
 function setup(){
-  var canvas = createCanvas(windowWidth, '100vh');
+  var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('canvas')
   background('black');
   m = tf.variable(tf.scalar(random(10)));
