@@ -2,7 +2,7 @@ var xs_real = [] //empty arrays for dataset from mouse locations
 var ys_real =[]
 let m ,b ;
 
-const lrate = 0.5;
+let lrate = 0.5;
 const optmz = tf.train.sgd(lrate)
 
 function setup(){
